@@ -3,3 +3,12 @@
   --title-color: #212121;
   --text-color: #757575;
 }
+
+
+a[href^="https"] {
+  color: red;
+}
+
+ul + p {
+  font-size: 24px;
+}
