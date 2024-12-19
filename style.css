@@ -12,3 +12,28 @@ a[href^="https"] {
 ul + p {
   font-size: 24px;
 }
+
+
+h3 {
+  color: pink;
+}
+
+
+#greycol {
+  color: grey;
+}
+
+
+.yellow {
+  color: yellow;
+}
+
+
+div > p {
+  color: red;
+}
+
+
+p {
+  color: green;
+}
