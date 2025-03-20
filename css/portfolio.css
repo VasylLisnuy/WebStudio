@@ -1,0 +1,66 @@
+.buttons {
+  padding-top: 94px;
+}
+
+.buttons-list {
+  display: flex;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.buttons-btn {
+  width: 125px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.buttons-btn:hover {
+  border-radius: 4px;
+  color: white;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+
+.posters {
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.posters-item {
+  border: 1px solid #EEE;
+}
+
+.posters-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.posters-title {
+  padding-top: 20px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 24px;
+}
+
+.posters-text {
+  color: #757575;
+  padding-left: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
