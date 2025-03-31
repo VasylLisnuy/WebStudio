@@ -64,8 +64,8 @@
   .header-list {
     display: flex;
     gap: 50px;
-    padding-left: 93px;
-    padding-right: 344px;
+    margin-left: 93px;
+    margin-right: 344px;
     align-items: center;
   }
   
@@ -76,11 +76,15 @@
   }
 
   .header-mail {
-    color: #2196F3;
+    
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+
+  .header-mail:hover {
+    color: #2196F3;
   }
   
   
