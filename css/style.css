@@ -110,7 +110,8 @@ letter-spacing: 0.42px;
 
 .service-list {
   display: flex;
- gap: 30px
+ gap: 30px;     
+ 
 }
 
 .service-subtitle {
@@ -124,6 +125,7 @@ letter-spacing: 0.42px;
 .people {
   padding-top: 94px;
   background: #F5F4FA;
+  padding-bottom: 94px;
 }
 
 .people-title {
@@ -143,18 +145,16 @@ letter-spacing: 0.42px;
   letter-spacing: 0.48px;
 }
 
-.people-text {
-  margin-bottom: 30px;
-}
 
 .people-list {
 display: flex;  
 gap: 30px;
-padding-bottom: 94px;
+
 }
  
 .people-item {
   background: #FFF;
+  padding-bottom: 30px;
 }
 
 .people-text {
