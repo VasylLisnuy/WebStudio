@@ -1,7 +1,7 @@
 
 
 .hero {
-  background-color: var(--title-color);
+  background: #2F303A;
   padding-bottom: 200px;
   padding-top: 200px;
   display: flex;
@@ -62,23 +62,49 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-top: 94px;
 }
 
+
+.info-item {
+  width: 270px;
+  flex-shrink: 0;
+
+}
+
 .info-list {
   display: flex;
-  
+  gap: 30px;
 }
 
 .info-subtitile {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  
+  color: #212121;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
 }
 
 .info-text {
   color: var(--text-color);
   
   line-height: 24px;
+
+  color: #757575;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
 }
 
 .service {
-  padding-top: 118px;
+
   padding-bottom: 94px;
 }
 
