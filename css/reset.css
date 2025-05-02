@@ -24,7 +24,6 @@ button {
   /* background-color: transparent; */
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -35,11 +34,17 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -59,7 +64,5 @@ img {
 }
 
 li {
-    max-width: 370px;
+  max-width: 370px;
 }
-
-

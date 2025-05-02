@@ -1,161 +1,146 @@
 :root {
-    --accent-color: #2196f3;
-    --title-color: #212121;
-    --text-color: #757575;
-  }
-  
-  
-  
-  
-  .container {
-    /* outline: solid red; */
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  
-  
-  body {
-    font-family: Roboto;
-    font-style: normal;
-    color: var(--title-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: 0.42px;
-  }
-  
-  .header {
-    background: #FFF;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+}
+
+.container {
+  outline: solid red;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.42px;
+}
+
+.header {
+  background: #fff;
   padding-top: 24px;
   padding-bottom: 25px;
-  
-  }
+}
 
+.header-div {
+  display: flex;
+}
 
-  .header-div {
-    display: flex;
-  }
-  
-  .header-logo-blue {
-    color:var(--accent-color);
-  
+.header-logo-blue {
+  color: var(--accent-color);
+
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
-  }
-  
-  .header-logo {
-    color: var(--title-color);
+}
+
+.header-logo {
+  color: var(--title-color);
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
-  }
-  
-  .header-link:hover {
-    color: var(--accent-color);
-  }
-  
-  .header-list {
-    display: flex;
-    gap: 50px;
-    margin-left: 93px;
-    margin-right: auto;
-    align-items: center;
-  }
-  
-  .header-contacts {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-  }
+}
 
-  .header-mail {
-    color: #757575;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
+.header-link:hover {
+  color: var(--accent-color);
+}
 
-  .header-mail:hover {
-    color: #2196F3;
-  }
-  
-  
-  .header-link {
-    
-    color: inherit;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-  }
-  
-  .header-number:hover {
-    color: var(--accent-color);
-    
-  }
-  
-  .header-number {
-    color: var(--text-color);
-    
-    font-weight: 500;
-    letter-spacing: 0.28px;
-  }
+.header-list {
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
+  margin-right: auto;
+  align-items: center;
+}
 
-  .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: #2F303A;
-  }
+.header-contacts {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
 
+.header-mail {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
-  .footer-address {
-    color: #fff;
-  
-    font-style: normal;
-    line-height: 24px;
-  }
-  
-  .footer-mail {
-    color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-    line-height: 24px;
-  }
-  
-  .footer-number {
-    color: rgba(255, 255, 255, 0.6);
-    line-height: 24px; /* 171.429% */
-  }
-  
-  .footer-logo-blue {
-    color: var(--accent-color);
-  
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-  }
-  
-  .footer-list {
-    gap: 9px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .footer-logo {
-    
-    margin-bottom: 20px;
-    color: #fff;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-  }
-  
-  
-  
+.header-mail:hover {
+  color: #2196f3;
+}
+
+.header-link {
+  color: inherit;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.header-number:hover {
+  color: var(--accent-color);
+}
+
+.header-number {
+  color: var(--text-color);
+
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #2f303a;
+}
+
+.footer-address {
+  color: #fff;
+
+  font-style: normal;
+  line-height: 24px;
+}
+
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  line-height: 24px;
+}
+
+.footer-number {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 24px; /* 171.429% */
+}
+
+.footer-logo-blue {
+  color: var(--accent-color);
+
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+
+.footer-list {
+  gap: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
