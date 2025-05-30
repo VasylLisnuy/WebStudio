@@ -34,10 +34,16 @@
   margin-bottom: 94px;
 }
 
+.posters-item:hover {
+  border: 1px solid #EEE;
 
+background: #FFF;
+
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 
 .posters-item {
-  
+
   border: 1px solid #eee;
   flex-basis: calc( (100% - (30px * 2) ) / 3 ) ;
 }
