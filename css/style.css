@@ -1,11 +1,12 @@
 .hero {
-  background: #2f303a;
+  background: #ffffff;
   padding-bottom: 200px;
   padding-top: 200px;
   display: flex;
-  background-image: 
-  url(./photo/hero-photo.webp);
-  
+  background-image: radial-gradient(ellipse at left, rgb(47, 48, 58, 0.4)),
+    url(./photo/hero-photo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-div {
@@ -56,7 +57,6 @@
 .info {
   padding-bottom: 94px;
   padding-top: 94px;
-  
 }
 
 .info-item:first-child:before {
@@ -64,24 +64,23 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url("./photo/antenna.webp") ;
+  background-image: url("./photo/antenna.webp");
   background-repeat: no-repeat;
   background-position-x: 100px;
   background-position-y: 25px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
-
 
 .info-item:nth-child(2):before {
   content: "";
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url("./photo/clock.webp") ;
+  background-image: url("./photo/clock.webp");
   background-repeat: no-repeat;
   background-position-x: 100px;
   background-position-y: 25px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .info-item:nth-child(3):before {
@@ -89,11 +88,11 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url("./photo/diagram.webp") ;
+  background-image: url("./photo/diagram.webp");
   background-repeat: no-repeat;
   background-position-x: 100px;
   background-position-y: 25px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .info-item:nth-child(4):before {
@@ -101,11 +100,11 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url("./photo/astronaut.webp") ;
+  background-image: url("./photo/astronaut.webp");
   background-repeat: no-repeat;
   background-position-x: 100px;
   background-position-y: 25px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .info-item {
@@ -120,7 +119,7 @@
 
 .info-subtitile {
   margin-bottom: 10px;
-margin-top: 30px;
+  margin-top: 30px;
   color: #212121;
 
   font-family: Roboto;
@@ -194,9 +193,10 @@ margin-top: 30px;
 
 .people-item:hover {
   border-radius: 0px 0px 4px 4px;
-background: #FFF;
-/* material shadow v1 */
-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+  background: #fff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 .people-item {
