@@ -59,7 +59,7 @@
   padding-top: 94px;
 }
 
-.info-item:first-child:before {
+/* .info-item:first-child:before {
   content: "";
   display: block;
   width: 270px;
@@ -105,7 +105,7 @@
   background-position-x: 100px;
   background-position-y: 25px;
   background-color: #f5f4fa;
-}
+} */
 
 .info-item {
   width: 270px;
