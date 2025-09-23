@@ -78,9 +78,26 @@ body {
   line-height: normal;
 }
 
+.header-icon {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+ 
+}
+
+.header-mail:hover > .header-icon {
+  fill: #2196f3;
+  
+}
+
 .header-mail:hover {
   color: #2196f3;
 }
+
+
+
+
+
 
 .header-link {
   color: inherit;
@@ -91,6 +108,16 @@ body {
 .header-number:hover {
   color: var(--accent-color);
 }
+
+.header-number:hover > .header-icon {
+  fill: #2196f3;
+  
+}
+
+.header-number:hover {
+  color: #2196f3;
+}
+
 
 .header-number {
   color: var(--text-color);
@@ -145,4 +172,59 @@ body {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
+}
+
+
+.footer-socials {
+  
+  margin-left:70px ;
+}
+
+.footer-list-socials {
+display: flex;
+gap: 10px;
+}
+
+.socials-icon {
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+}
+
+
+.footer-div {
+  
+}
+
+.footer-socials {
+ 
+}
+
+.footer-container {
+  display: flex;
+}
+
+.socials-list-item {
+  margin-top: 20px;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footer-socials-text {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+}
+
+.socials-list-item:hover {
+  background-color:#2196f3;
 }
