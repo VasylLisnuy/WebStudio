@@ -31,37 +31,40 @@
   <body>
     <!--Header-->
     <header class="header">
-      <div class="container">
-        <div class="header-div">
-          <p class="header-logo">
-            <span class="header-logo-blue">Web</span>Studio
-          </p>
-          <ul class="header-list">
-            <li class="header-item">
-              <a href="./index.html" class="header-link">Студія</a>
-            </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link">Портфоліо</a>
-            </li>
-            <li>
-              <a href="" class="header-link">Контакти</a>
-            </li>
-          </ul>
-          <ul class="header-contacts">
-            <li class="header-contact">
-              <a href="mailto:info@gmail.com" class="header-mail"
-                >info@gmail.com</a
-              >
-            </li>
-            <li class="header-contact">
-              <a href="tel:+380683464291" class="header-number"
-                >+38 068 346 42 91</a
-              >
-            </li>
-          </ul>
-        </div>
+    <div class="container">
+      <div class="header-div">
+        <p class="header-logo">
+          <span class="header-logo-blue">Web</span>Studio
+        </p>
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="./index.html" class="header-link">Студія</a>
+          </li>
+          <li class="header-item">
+            <a href="./portfolio.html" class="header-link">Портфоліо</a>
+          </li>
+          <li>
+            <a href="" class="header-link">Контакти</a>
+          </li>
+        </ul>
+        <ul class="header-contacts">
+          <li class="header-contact">
+            <a href="mailto:info@gmail.com" class="header-mail">
+              <svg class="header-icon">
+                <use href="./photo/symbol-defs.svg#icon-email-hover"></use>
+              </svg>     <span>info@gmail.com</span></a>
+          </li>
+          <li class="header-contact">
+            <a href="tel:+380683464291" class="header-number">
+              <svg class="header-icon2">
+                <use href="./photo/symbol-defs.svg#icon-phone-hover"></use>
+              </svg>
+                   <span>+38 068 346 42 91</span></a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </header>
     <!--Portfolio -->
 
     <section class="buttons">
@@ -175,7 +178,9 @@
     </section>
 
     <footer class="footer">
-      <div class="container">
+    <div class="container footer-container">
+
+      <div class="footer-div">
         <p class="footer-logo">
           <span class="footer-logo-blue">Web</span>Studio
         </p>
@@ -192,7 +197,34 @@
             <a href="" class="footer-number">+38 096 111 11 11</a>
           </li>
         </ol>
+
       </div>
-    </footer>
+      <div class="footer-socials">
+        <h3 class="footer-socials-text">приєднуйтесь</h3>
+        <ul class="footer-list-socials">
+          <li class="socials-list-item">
+            <svg class="socials-icon">
+              <use href="./photo/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </li>
+          <li class="socials-list-item">
+            <svg class="socials-icon">
+              <use href="./photo/symbol-defs.svg#icon-X"></use>
+            </svg>
+          </li>
+          <li class="socials-list-item">
+            <svg class="socials-icon">
+              <use href="./photo/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </li>
+          <li class="socials-list-item">
+            <svg class="socials-icon">
+              <use href="./photo/symbol-defs.svg#icon-linkedin-1"></use>
+            </svg>
+          </li>
+        </ul>
+
+      </div>
+  </footer>
   </body>
 </html>
