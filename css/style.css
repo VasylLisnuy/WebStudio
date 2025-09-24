@@ -164,6 +164,30 @@
   letter-spacing: 0.42px;
 }
 
+
+.service-text {
+  display: flex;
+position: absolute;
+bottom: 0 ;
+left:0 ;
+right: 0;
+justify-content: center;
+padding: 27px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+background: rgba(47, 48, 58, 0.8);
+}
+
+
+.service-item {
+  position: relative;
+}
+
 .service {
   padding-bottom: 94px;
 }
@@ -304,4 +328,8 @@ height: 92px;
 .regular-list-item:hover > .regural-icon {
   fill:#2196F3 ;
 }
+
+
+
+
 
