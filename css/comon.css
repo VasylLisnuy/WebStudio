@@ -125,7 +125,7 @@ gap: 3px;
   color: var(--accent-color);
 }
 
-.header-number:hover > .header-icon {
+.header-number:hover > .header-icon2 {
   fill: #2196f3;
   
 }
