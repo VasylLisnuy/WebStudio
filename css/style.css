@@ -331,5 +331,127 @@ height: 92px;
 
 
 
+.backdrop {
+
+
+}
+
+.model {
+  border-radius: 4px;
+width: 528px;
+height: 581px;
+background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+
+} 
+
+
+.backdrop-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+padding-right: 10px;
+padding-top: 6px;
+
+}
+
+
+.model-exit-icon {
+  width: 30px;
+height: 30px;
+fill: #212121;
+  stroke:  #212121;
+  outline: red solid;
+}
+
+.backdrop-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin-top: 90px;
+  padding-right: 40px;
+  gap: 10px;
+  justify-content: left;
+  align-items: left;
+
+}
+
+
+.backdrop-form-name {
+ border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+width: 448px;
+height: 40px;
+padding-left: 8px;
+}
+
+.backdrop-text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.01em;
+color: #757575;
+}
+
+.backdrop-form-number {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+width: 448px;
+height: 40px;
+}
+
+.backdrop-form-email {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+width: 448px;
+height: 40px;
+}
+
+.backdrop-form-massage {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+width: 448px;
+height: 120px;
+justify-self: start;
+
+}
+
+
+.backdrop-h1text {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+
+padding-top: 40px;
+}
+
+
+.checkbox-backdrop {
+  display: flex;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #757575;
+justify-content: center;
+gap: 8.38px;
+}
+
+.terms {
+  text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #2196f3;
+}
+
+
 
 
