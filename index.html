@@ -43,14 +43,14 @@
             <a href="mailto:info@gmail.com" class="header-mail">
               <svg class="header-icon">
                 <use href="./photo/symbol-defs.svg#icon-email-hover"></use>
-              </svg>     <span>info@gmail.com</span></a>
+              </svg> <span>info@gmail.com</span></a>
           </li>
           <li class="header-contact">
             <a href="tel:+380683464291" class="header-number">
               <svg class="header-icon2">
                 <use href="./photo/symbol-defs.svg#icon-phone-hover"></use>
               </svg>
-                   <span>+38 068 346 42 91</span></a>
+              <span>+38 068 346 42 91</span></a>
           </li>
         </ul>
       </div>
@@ -61,7 +61,7 @@
   <section class="hero">
     <div class="container hero-div">
       <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-      <button type="button" class="hero-button">Замовити послугу</button>
+      <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
     </div>
   </section>
 
@@ -135,11 +135,11 @@
         </li>
         <li class="service-item">
           <img src="./photo/phone-section-3.webp" alt="phone" class="service-photo" />
-<p class="service-text">Мобільні додатки</p>
+          <p class="service-text">Мобільні додатки</p>
         </li>
         <li class="service-item">
           <img src="./photo/mozaika-section-3.webp" alt="mozaika" class="service-photo" />
-<p class="service-text">Дизайнерські рішення</p>
+          <p class="service-text">Дизайнерські рішення</p>
         </li>
       </ul>
     </div>
@@ -325,53 +325,68 @@
   </footer>
 
 
-<div class="backdrop is-hidden" data-modal>
-<div class="model">
-  
-<button class="backdrop-button" data-modal-close>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="model">
+
+      <button class="backdrop-button" data-modal-close>
+
         <svg class="model-exit-icon">
           <use href="./photo/symbol-defs.svg#icon-exit" class="svg-exit-icon">
           </use>
         </svg>
       </button>
       <p class="backdrop-h1text">Залиште свої дані, ми вам передзвонимо</p>
+
       <form action="" class="backdrop-form">
+
         <label for="" class="backdrop-text">
-          Ім'я
-           <svg class="icon-backdrop">
-              <use href="./photo/symbol-defs.svg#icon-man"></use>
-            </svg>
-          <input type="text" name="" id="" class="backdrop-form-name">
-        
+          <span class="text-backdrop">Ім'я</span>
+
+          <input type="text" name="" id="" class="backdrop-input">
+          <svg class="icon-backdrop">
+            <use href="./photo/symbol-defs.svg#icon-man"></use>
+          </svg>
         </label>
-        
+
+
         <label for="" class="backdrop-text">
-          Телефон
-          <input type="number" class="backdrop-form-number">
+          <span class="text-backdrop">Телефон</span>
+
+          <input type="number" class="backdrop-input">
+          <svg class="icon-backdrop">
+            <use href="./photo/symbol-defs.svg#icon-telephone"></use>
+          </svg>
         </label>
-        
+
         <label for="" class="backdrop-text">
-          Пошта
-          <input type="email" class="backdrop-form-email">
+          <span class="text-backdrop">Пошта</span>
+
+          <input type="email" class="backdrop-input">
+          <svg class="icon-backdrop">
+            <use href="./photo/symbol-defs.svg#icon-gmail"></use>
+          </svg>
         </label>
-        
+
         <label for="" class="backdrop-text">
-          Коментар
+          <span class="text-backdrop">Коментар</span>
         </label>
         <textarea type="text" class="backdrop-form-massage" placeholder="Введіть текст"></textarea>
 
-        
+
       </form>
 
       <div>
 
-        <label for="" class="checkbox-backdrop"><input type="checkbox">Погоджуюся з розсилкою та приймаю <a href="" class="terms">Умови договору</a></label>
+        <label for="" class="checkbox-backdrop"><input type="checkbox">Погоджуюся з розсилкою та приймаю <a href=""
+            class="terms">Умови договору</a></label>
       </div>
 
+<button class="backdrop-send">Відправити</button>
 
+    </div>
+  </div>
 
-</div>
-</div>
+  <script src="./modal.js"></script>
 </body>
 
 </html>
