@@ -332,7 +332,7 @@
 
 
 .backdrop {
-   position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -350,7 +350,7 @@
 .model {
   border-radius: 4px;
   width: 528px;
-  height: 581px;
+  padding-bottom: 40px;
   background-color: white;
   position: fixed;
   top: 50%;
@@ -359,6 +359,7 @@
 
 
 }
+
 /* .model {
   position: absolute;
   top: 50%;
@@ -378,12 +379,12 @@
   padding-right: 10px;
   padding-top: 6px;
   border-radius: 100%;
- border: rgba(0, 0, 0, 0.1) solid;
- padding: 6px 6px;
-stroke-width: 1px;
-stroke: rgba(0, 0, 0, 0.1);
-display: flex;
-justify-content: center;
+  border: rgba(0, 0, 0, 0.1) solid;
+  padding: 6px 6px;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
 }
 
 .backdrop-button:hover {
@@ -394,8 +395,8 @@ justify-content: center;
 .model-exit-icon {
   width: 11px;
   height: 11px;
- 
-  
+
+
 }
 
 .model-exit-icon:hover {
@@ -520,7 +521,8 @@ justify-content: center;
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
-  margin-left: 164px;
+  align-self: center;
+
   margin-top: 30px;
 }
 
@@ -530,7 +532,7 @@ justify-content: center;
 
 .backdrop-send:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #188ce8;
+  background: #188ce8;
 }
 
 
@@ -542,4 +544,56 @@ background: #188ce8;
 .text-backdrop {
   margin-bottom: 4px;
   display: block;
+}
+
+
+
+.mailing {
+  margin-left: 93px;
+}
+
+.mailing-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+}
+
+.mailing-input::placeholder {
+  padding-left: 16px;
+}
+
+
+.mailing-text {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 20px;
+}
+
+.mailing-button {
+  border-radius: 4px;
+width: 200px;
+height: 50px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #2196f3;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+text-align: center;
+color: #fff;
+margin-left: 40px ;
+}
+
+.mailing-icon {
+  outline: red solid;
+  width: 24px;
+  height: 24px;
 }
