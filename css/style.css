@@ -550,6 +550,8 @@
 
 .mailing {
   margin-left: 93px;
+  display: flex;
+  align-items: end;
 }
 
 .mailing-input {
@@ -559,10 +561,13 @@
   height: 50px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: rgba(33, 150, 243, 0);
+  margin-top: 20px;
+  padding-left: 16px;
+  color: #FFFF;
 }
 
 .mailing-input::placeholder {
-  padding-left: 16px;
+ 
 }
 
 
@@ -573,10 +578,15 @@ font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #fff;
-margin-bottom: 20px;
+
 }
 
 .mailing-button {
+  padding-left:28px ;
+  padding-right: 28px ;
+  gap: 10px;
+  display: flex;
+ 
   border-radius: 4px;
 width: 200px;
 height: 50px;
@@ -589,11 +599,18 @@ line-height: 187%;
 letter-spacing: 0.06em;
 text-align: center;
 color: #fff;
-margin-left: 40px ;
+
+justify-content: center;
+align-items: center;
+
+
 }
 
 .mailing-icon {
-  outline: red solid;
+  fill: #FFFF;
   width: 24px;
   height: 24px;
 }
+
+
+

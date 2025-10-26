@@ -211,7 +211,7 @@ gap: 10px;
 
 
 .footer-div {
-  
+  flex-shrink: 0;
 }
 
 .footer-socials {
@@ -220,6 +220,7 @@ gap: 10px;
 
 .footer-container {
   display: flex;
+  align-items: start;
 }
 
 .socials-list-item {

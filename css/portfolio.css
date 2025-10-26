@@ -74,3 +74,72 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 }
 
 
+
+.mailing {
+  margin-left: 93px;
+  display: flex;
+  align-items: end;
+}
+
+.mailing-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+  margin-top: 20px;
+  padding-left: 16px;
+  color: #FFFF;
+}
+
+.mailing-input::placeholder {
+ 
+}
+
+
+.mailing-text {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+
+}
+
+.mailing-button {
+  padding-left:28px ;
+  padding-right: 28px ;
+  gap: 10px;
+  display: flex;
+ 
+  border-radius: 4px;
+width: 200px;
+height: 50px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #2196f3;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+text-align: center;
+color: #fff;
+
+justify-content: center;
+align-items: center;
+
+
+}
+
+.mailing-icon {
+  fill: #FFFF;
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
