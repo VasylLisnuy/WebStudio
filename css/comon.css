@@ -52,9 +52,7 @@ body {
   letter-spacing: 0.78px;
 }
 
-.header-link:hover {
-  color: var(--accent-color);
-}
+
 
 .header-list {
 
@@ -75,6 +73,7 @@ body {
 
 .header-item {
   position: relative;
+
 }
 
 .header-item::after {
@@ -83,16 +82,20 @@ content: "";
 position: absolute;
 top: 46px;
 left: 0px;
-width: 100%;
+width: 0%;
 background-color: #2196f3;
 border-radius: 2px;
 border: #2196f3 solid 2px;
+transition-property: width, opacity;
+transition-duration: 250ms;
+text-align: center;
 opacity: 0;
 }
 
 
 .header-item:hover::after {
   opacity: 1;
+  width: 100%;
 }
 
 
@@ -106,6 +109,8 @@ opacity: 0;
   line-height: normal;
 align-items: center;
 gap: 3px;
+transition-property: color ;
+  transition-duration: 250ms;
 }
 
 .header-icon {
@@ -142,6 +147,12 @@ gap: 3px;
   color: inherit;
   font-weight: 500;
   letter-spacing: 0.28px;
+  transition-property: color ;
+  transition-duration: 250ms;
+}
+
+.header-link:hover {
+  color: var(--accent-color);
 }
 
 .header-number:hover {
@@ -165,6 +176,8 @@ display: flex;
   letter-spacing: 0.28px;
   align-items: center;
 gap: 3px;
+transition-property: color ;
+  transition-duration: 250ms;
 }
 
 .footer {
@@ -255,7 +268,8 @@ gap: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   justify-content: center;
   align-items: center;
-  
+   transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .footer-socials-text {

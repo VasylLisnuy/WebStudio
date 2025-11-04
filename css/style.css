@@ -238,6 +238,8 @@
   margin-top: 16px;
   justify-content: center;
   align-items: center;
+  transition-property: background-color ;
+  transition-duration: 250ms;
 }
 
 .people-social:hover {
@@ -306,14 +308,15 @@
   border-radius: 4px;
   width: 170px;
   height: 92px;
-
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 
 
 .regular-list-item:hover {
   border-color: #2196F3;
-
+  
 }
 
 .regular-list-item:hover>.regural-icon {
