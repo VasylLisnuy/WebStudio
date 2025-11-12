@@ -86,15 +86,16 @@ width: 0%;
 background-color: #2196f3;
 border-radius: 2px;
 border: #2196f3 solid 2px;
-transition-property: width, opacity;
+transition-property: width, opacity transform;
 transition-duration: 250ms;
 text-align: center;
-opacity: 0;
+transform: scale(0);
+
 }
 
 
 .header-item:hover::after {
-  opacity: 1;
+ transform: scale(1);
   width: 100%;
 }
 
