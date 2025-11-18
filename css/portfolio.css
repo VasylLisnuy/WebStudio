@@ -48,7 +48,10 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 position: relative;
   border: 1px solid #eee;
   flex-basis: calc( (100% - (30px * 2) ) / 3 ) ;
+  background: white;
+  z-index: 2;
 }
+
 
 .posters-list {
   display: flex;
@@ -162,12 +165,17 @@ font-size: 18px;
 line-height: 156%;
 letter-spacing: 0.03em;
 color: #fff;
- transition-property: opacity;
+ transition-property: opacity transform;
   transition-duration: 250ms;
+   transform: translateY(90%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
 }
 
 .posters-item:hover .text-up {
   opacity: 1;
+ transform: translateY(0);
+ z-index: 1;
 }
 
 

@@ -332,12 +332,15 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
+  transition-property: opacity ;
+  transition-duration: 250ms;
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
+
 
 
 .model {
@@ -348,21 +351,16 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-
-
+  transform: translate(-50%, -50%) scale(1);
+transition-property: transform ;
+  transition-duration: 250ms;
+transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .model {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 400px;
-  min-height: 300px;
-  padding: 15px;
-  background-color: skyblue;
-  transform: translate(-50%, -50%);
-} */
+.backdrop.is-hidden .model {
+  transform: translate(-50%, -50%) scale(0);
+}
+
 
 .backdrop-button {
   position: absolute;
@@ -379,6 +377,7 @@
   display: flex;
   justify-content: center;
 }
+
 
 .backdrop-button:hover {
   fill: #2196F3;
@@ -529,9 +528,9 @@
 }
 
 
-.no-scroll {
+/* .no-scroll {
   overflow: hidden;
-}
+} */
 
 
 .text-backdrop {
