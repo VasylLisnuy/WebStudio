@@ -45,11 +45,16 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0
 }
 
 .posters-item {
-position: relative;
   border: 1px solid #eee;
   flex-basis: calc( (100% - (30px * 2) ) / 3 ) ;
   background: white;
   z-index: 2;
+}
+
+
+.box-poster {
+  position: relative;
+  overflow: hidden;
 }
 
 
