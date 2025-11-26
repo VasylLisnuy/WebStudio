@@ -82,11 +82,11 @@ content: "";
 position: absolute;
 top: 46px;
 left: 0px;
-width: 0%;
+width: 100%;
 background-color: #2196f3;
 border-radius: 2px;
 border: #2196f3 solid 2px;
-transition-property: width, opacity transform;
+transition-property: width, opacity, transform;
 transition-duration: 250ms;
 text-align: center;
 transform: scale(0);
@@ -96,7 +96,7 @@ transform: scale(0);
 
 .header-item:hover::after {
  transform: scale(1);
-  width: 100%;
+ 
 }
 
 

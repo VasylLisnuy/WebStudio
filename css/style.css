@@ -46,7 +46,27 @@
   flex-shrink: 0;
 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  animation-name: anim-button ;
+  animation-timing-function: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
+
+
+@keyframes anim-button {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}     
 
 .hero-subtitle {
   font-size: 14px;
@@ -238,7 +258,7 @@
   margin-top: 16px;
   justify-content: center;
   align-items: center;
-  transition-property: background-color ;
+  transition-property: background-color;
   transition-duration: 250ms;
 }
 
@@ -316,7 +336,7 @@
 
 .regular-list-item:hover {
   border-color: #2196F3;
-  
+
 }
 
 .regular-list-item:hover>.regural-icon {
@@ -332,7 +352,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition-property: opacity ;
+  transition-property: opacity;
   transition-duration: 250ms;
 }
 
@@ -352,9 +372,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-transition-property: transform ;
+  transition-property: transform;
   transition-duration: 250ms;
-transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .model {
@@ -558,44 +578,45 @@ transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   color: #FFFF;
 }
 
-.mailing-input::placeholder {
- 
-}
+.mailing-input::placeholder {}
 
 
 .mailing-text {
   font-family: var(--font-family);
-font-weight: 700;
-font-size: 14px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
 
 }
 
 .mailing-button {
-  padding-left:28px ;
-  padding-right: 28px ;
+  padding-left: 28px;
+  padding-right: 28px;
   gap: 10px;
   display: flex;
- 
+
   border-radius: 4px;
-width: 200px;
-height: 50px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #2196f3;
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 16px;
-line-height: 187%;
-letter-spacing: 0.06em;
-text-align: center;
-color: #fff;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #2196f3;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
 
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 
-
+animation-name: anim-button ;
+  animation-timing-function: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
 
 .mailing-icon {
@@ -603,6 +624,3 @@ align-items: center;
   width: 24px;
   height: 24px;
 }
-
-
-
