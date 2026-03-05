@@ -8,22 +8,56 @@
 
   &__container {
     display: flex;
-    align-items: start;
+    flex-direction: column;
+justify-content: center;
+
+
+    @media screen and (min-width: 768px) {
+      align-items: baseline;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
+
   }
 
 
   &__div {
-    flex-shrink: 0;
+    text-align: center;
+
+
+   
+
+
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+
+    }
   }
 
 
   &__logo {
-    margin-bottom: 20px;
-    color: #fff;
+    color: #FFF;
+    text-align: center;
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 24px;
+margin-bottom: 20px;
     font-weight: 700;
-    letter-spacing: 0.78px;
+
+    letter-spacing: 0.72px;
+
+
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+      margin-bottom: 20px;
+      font-size: 26px;
+      letter-spacing: 0.78px;
+
+    }
   }
 
   &__logo-blue {
@@ -42,10 +76,15 @@
   }
 
   &__address {
-    color: #fff;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
 
-    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
+    letter-spacing: 0.42px;
+
   }
 
   &__mail {
@@ -79,8 +118,25 @@
 
 
 .footer__socials {
+margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
 
-  margin-left: 70px;
+  
+
+  @media screen and (min-width: 768px) {
+      margin-left: 165px;
+      margin-top: 0;
+      margin-right: 0;
+    }
+
+  @media screen and (min-width: 1200px) {
+      text-align: start;
+      margin-left: 70px;
+      margin-right: auto;
+    }
 
   .socials__icon {
     width: 20px;
@@ -113,9 +169,34 @@
 
 
 .mailing {
-  margin-left: 93px;
-  display: flex;
-  align-items: end;
+
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+      text-align: start;
+    }
+  
+  
+  &__box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    
+
+
+    @media screen and (min-width: 768px) {
+      
+
+    }
+
+
+    @media screen and (min-width: 1200px) {
+      align-items: end;
+      flex-direction: row;
+gap: 10px;
+    }
+  }
 
 
   &__text {
@@ -131,16 +212,27 @@
   &__input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-    width: 358px;
+    width: 100%;
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: rgba(33, 150, 243, 0);
     margin-top: 20px;
     padding-left: 16px;
     color: #FFFF;
+
+@media screen and (min-width: 480px) {
+      width: 450px;
+    }
+
+    
+
+  @media screen and (min-width: 1200px) {
+      width: 358px;
+    }
   }
 
   &__button {
+    
     padding-left: 28px;
     padding-right: 28px;
     gap: 10px;

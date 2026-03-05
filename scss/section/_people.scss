@@ -1,29 +1,74 @@
 @use "../base/vars" as *;
 
 .people {
-  padding-top: 94px;
-  background: #f5f4fa;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  background: #F5F4FA;
+
+  padding-bottom: 60px;
+
+  
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+
+
 
   &__title {
   text-align: center;
-  margin-bottom: 50px;
-  font-size: 36px;
+  margin-bottom: 30px;
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 1.08px;
+  letter-spacing: 0.84px;
+
+
+  @media screen and (min-width: 1200px) {
+      letter-spacing: 1.08px;
+      margin-bottom: 50px;
+      font-size: 36px;
+    }
 }
 
 &__list {
+  
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+
+  @media screen and (min-width: 1200px) {
+      
+      
+    }
 }
 
 &__item {
+  flex-basis: 100%;
   background: #fff;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+
+
+
+
+    @media screen and (min-width: 480px) {
+      flex-basis: 450px;
+      
+    }
+
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 30px) / 2) ;
+      
+    }
+
+
+  @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 90px) / 4) ;
+      
+    }
+
 }
 
 &__subtitle {
@@ -80,12 +125,6 @@
 }
 
 }
-
-
-
-
-
-
 
 
 
