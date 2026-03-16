@@ -25,13 +25,35 @@
         <p class="header__logo">
           <span class="header__logo-blue">Web</span>Studio
         </p>
-<button type="button" class="header__menu">
+<button type="button" class="header__menu" data-mobile-open>
   <svg class="header__open">
     <use href="./photo/symbol-defs.svg#icon-menu_40px"></use>
   </svg>
 </button>
 
+<div class="mobile is-hidden" data-mobile>
+  <button type="button" class="mobile__exit" data-mobile-close>
+    <svg class="mobile__icon">
+      <use href="./photo/symbol-defs.svg#icon-exit"></use>
+    </svg>
 
+  </button>
+<ul class="mobile__list">
+  <li class="mobile__itme"><a href="./index.html" class="mobile__link">Студія</a></li>
+  <li class="mobile__itme"><a href="./portfolio.html" class="mobile__link">Портфоліо</a></li>
+  <li class="mobile__itme"><a href="" class="mobile__link">Контакти</a></li>
+</ul>
+<ul class="mobile__lists">
+  <li class="mobile__itmes"><a href="tel:+380961111111" class="mobile__number">+38 096 111 11 11</a></li>
+  <li class="mobile__itmes"><a href="mailto:info@devstudio.com" class="mobile__email">info@devstudio.com</a></li>
+</ul>
+<ul class="mobile__elements">
+  <li class="mobile__social"><a href="" class="mobile__socials">Instagram</a></li>
+  <li class="mobile__social"><a href="" class="mobile__socials">Twitter</a></li>
+  <li class="mobile__social"><a href="" class="mobile__socials">Facebook</a></li>
+  <li class="mobile__social"><a href="" class="mobile__socials">LinkedIn</a></li>
+</ul>
+</div>
 
 
 
@@ -430,7 +452,8 @@
     </div>
   </div>
 
-  <script src="./modal.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/mobile.js"></script>
 </body>
 
 </html>
