@@ -6,16 +6,47 @@
   padding-top: 118px;
   display: flex;
   background-image: radial-gradient(ellipse at left, rgb(47, 48, 58, 0.4)),
-    url(./photo/hero-photo.webp);
+    url(../photo/mobile/title-mobile@1x.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  @media screen and (min-width: 768px) {}
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  background-image: radial-gradient(ellipse at left, rgb(47, 48, 58, 0.4)),
+    url(../photo/mobile/title-mobile@2x.webp);
+}
+
+  @media screen and (min-width: 768px) {
+
+background-image: radial-gradient(ellipse at left, rgb(47, 48, 58, 0.4)),
+    url(../photo/tablet/title-tablet@1x.webp);
+    
+
+ @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  background-image: radial-gradient(ellipse at left, rgb(47, 48, 58, 0.4)),
+    url(../photo/tablet/title-tablet@2x.webp);
+}
+
+
+  }
 
   @media screen and (min-width: 1200px) {
     padding-bottom: 200px;
     padding-top: 200px;
+
+    background-image: radial-gradient(ellipse at left, rgb(47, 48, 58, 0.4)),
+    url(../photo/desktop/title-desktop@1x.webp);
+
+     @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  background-image: radial-gradient(ellipse at left, rgb(47, 48, 58, 0.4)),
+    url(../photo/desktop/title-desktop@2x.webp);
+}
   }
 
   &__div {
