@@ -27,35 +27,36 @@
         <p class="header__logo">
           <span class="header__logo-blue">Web</span>Studio
         </p>
-<button type="button" class="header__menu" data-mobile-open>
-  <svg class="header__open">
-    <use href="./photo/symbol-defs.svg#icon-menu_40px"></use>
-  </svg>
-</button>
+        <button type="button" class="header__menu" data-mobile-open>
+          <svg class="header__open">
+            <use href="./photo/symbol-defs.svg#icon-menu_40px"></use>
+          </svg>
+        </button>
 
-<div class="mobile is-hidden" data-mobile>
-  <button type="button" class="mobile__exit" data-mobile-close>
-    <svg class="mobile__icon">
-      <use href="./photo/symbol-defs.svg#icon-exit"></use>
-    </svg>
+        <div class="mobile is-hidden" data-mobile>
+          <button type="button" class="mobile__exit" data-mobile-close>
+            <svg class="mobile__icon">
+              <use href="./photo/symbol-defs.svg#icon-exit"></use>
+            </svg>
 
-  </button>
-<ul class="mobile__list">
-  <li class="mobile__itme"><a href="./index.html" class="mobile__link">Студія</a></li>
-  <li class="mobile__itme"><a href="./portfolio.html" class="mobile__link">Портфоліо</a></li>
-  <li class="mobile__itme"><a href="" class="mobile__link">Контакти</a></li>
-</ul>
-<ul class="mobile__lists">
-  <li class="mobile__itmes"><a href="tel:+380961111111" class="mobile__number">+38 096 111 11 11</a></li>
-  <li class="mobile__itmes"><a href="mailto:info@devstudio.com" class="mobile__email">info@devstudio.com</a></li>
-</ul>
-<ul class="mobile__elements">
-  <li class="mobile__social"><a href="" class="mobile__socials">Instagram</a></li>
-  <li class="mobile__social"><a href="" class="mobile__socials">Twitter</a></li>
-  <li class="mobile__social"><a href="" class="mobile__socials">Facebook</a></li>
-  <li class="mobile__social"><a href="" class="mobile__socials">LinkedIn</a></li>
-</ul>
-</div>
+          </button>
+          <ul class="mobile__list">
+            <li class="mobile__itme"><a href="./index.html" class="mobile__link">Студія</a></li>
+            <li class="mobile__itme"><a href="./portfolio.html" class="mobile__link">Портфоліо</a></li>
+            <li class="mobile__itme"><a href="" class="mobile__link">Контакти</a></li>
+          </ul>
+          <ul class="mobile__lists">
+            <li class="mobile__itmes"><a href="tel:+380961111111" class="mobile__number">+38 096 111 11 11</a></li>
+            <li class="mobile__itmes"><a href="mailto:info@devstudio.com" class="mobile__email">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="mobile__elements">
+            <li class="mobile__social"><a href="" class="mobile__socials">Instagram</a></li>
+            <li class="mobile__social"><a href="" class="mobile__socials">Twitter</a></li>
+            <li class="mobile__social"><a href="" class="mobile__socials">Facebook</a></li>
+            <li class="mobile__social"><a href="" class="mobile__socials">LinkedIn</a></li>
+          </ul>
+        </div>
 
 
 
@@ -89,139 +90,206 @@
     </div>
   </header>
   <!--Portfolio -->
-<main>
-  <section class="buttons">
-    <div class="container">
-      <ol class="buttons__list">
-        <li class="buttons__item">
-          <button type="button" class="buttons__btn">Усі</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__btn">Веб-сайти</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__btn">Додатки</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__btn">Дизайн</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__btn">Маркетинг</button>
-        </li>
-      </ol>
-    </div>
-  </section>
+  <main>
+    <section class="buttons">
+      <div class="container">
+        <ol class="buttons__list">
+          <li class="buttons__item">
+            <button type="button" class="buttons__btn">Усі</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__btn">Веб-сайти</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__btn">Додатки</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__btn">Дизайн</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__btn">Маркетинг</button>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-  <section class="posters">
-    <div class="container">
-      <ol class="posters__list">
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-1.webp" alt="photo" class="posters__photo" />
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Технокряк</h2>
-          <p class="posters__text">Веб-сайт</p>
+    <section class="posters">
+      <div class="container">
+        <ol class="posters__list">
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+              <picture>
+                <source srcset="./photo/desktop/tehno-desktop@1x.webp 1x, ./photo/desktop/tehno-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/tehno-tablet@1x.webp 1x, ./photo/tablet/tehno-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/tehno-mobile@1x.webp 1x, ./photo/mobile/tehno-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+                <img src="./photo/portfolio-1.webp" alt="photo" class="posters__photo" />
+              </picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Технокряк</h2>
+            <p class="posters__text">Веб-сайт</p>
 
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-2.webp" alt="photo" class="posters__photo" />
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Постер New Orlean vs Golden Star</h2>
-          <p class="posters__text">Дизайн</p>
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+              <picture>
+                <source srcset="./photo/desktop/orlean-desktop@1x.webp 1x, ./photo/desktop/orlean-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/orlean-tablet@1x.webp 1x, ./photo/tablet/orlean-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/orlean-mobile@1x.webp 1x, ./photo/mobile/orlean-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+                <img src="./photo/portfolio-2.webp" alt="photo" class="posters__photo" />
+              </picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Постер New Orlean vs Golden Star</h2>
+            <p class="posters__text">Дизайн</p>
 
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-3.webp" alt="photo" class="posters__photo" />
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Ресторан Seafood</h2>
-          <p class="posters__text">Додаток</p>
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+              <picture>
+                <source srcset="./photo/desktop/sea-desktop@1x.webp 1x, ./photo/desktop/sea-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/sea-tablet@1x.webp 1x, ./photo/tablet/sea-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/sea-mobile@1x.webp 1x, ./photo/mobile/sea-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+                <img src="./photo/portfolio-3.webp" alt="photo" class="posters__photo" />
+              </picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Ресторан Seafood</h2>
+            <p class="posters__text">Додаток</p>
 
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-4.webp" alt="photo" class="posters__photo" />
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Проєкт Prime</h2>
-          <p class="posters__text">Маркетинг</p>
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+              <picture>
+                <source srcset="./photo/desktop/prime-desktop@1x.webp 1x, ./photo/desktop/prime-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/prime-tablet@1x.webp 1x, ./photo/tablet/prime-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/prime-mobile@1x.webp 1x, ./photo/mobile/prime-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+                <img src="./photo/portfolio-4.webp" alt="photo" class="posters__photo" />
+              </picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Проєкт Prime</h2>
+            <p class="posters__text">Маркетинг</p>
 
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
 
+              <picture>
+                <source srcset="./photo/desktop/box-desktop@1x.webp 1x, ./photo/desktop/box-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/box-tablet@1x.webp 1x, ./photo/tablet/box-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/box-mobile@1x.webp 1x, ./photo/mobile/box-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+                <img src="./photo/portfolio-5.webp" alt="photo" class="posters__photo" />|
+              </picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Проєкт Boxes</h2>
+            <p class="posters__text">Додаток</p>
 
-            <img src="./photo/portfolio-5.webp" alt="photo" class="posters__photo" />
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Проєкт Boxes</h2>
-          <p class="posters__text">Додаток</p>
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+              <picture>
+                <source srcset="./photo/desktop/bord-desktop@1x.webp 1x, ./photo/desktop/bord-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/bord-tablet@1x.webp 1x, ./photo/tablet/bord-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/bord-mobile@1x.webp 1x, ./photo/mobile/bord-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+                <img src="./photo/portfolio-6.webp" alt="photo" class="posters__photo" />
+              </picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Inspiration has no Borders</h2>
+            <p class="posters__text">Веб-сайт</p>
 
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-6.webp" alt="photo" class="posters__photo" />
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Inspiration has no Borders</h2>
-          <p class="posters__text">Веб-сайт</p>
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+              <source srcset="./photo/desktop/on-desktop@1x.webp 1x, ./photo/desktop/on-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/on-tablet@1x.webp 1x, ./photo/tablet/on-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/on-mobile@1x.webp 1x, ./photo/mobile/on-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+              <img src="./photo/portfolio-7.webp" alt="photo" class="posters__photo" />
+</picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Видання Limited Edition</h2>
+            <p class="posters__text">Дизайн</p>
 
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-7.webp" alt="photo" class="posters__photo" />
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+               <source srcset="./photo/desktop/lab-desktop@1x.webp 1x, ./photo/desktop/lab-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/lab-tablet@1x.webp 1x, ./photo/tablet/lab-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/lab-mobile@1x.webp 1x, ./photo/mobile/lab-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+              <img src="./photo/portfolio-8.webp" alt="photo" class="posters__photo" />
+              </picture>
 
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Видання Limited Edition</h2>
-          <p class="posters__text">Дизайн</p>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Проєкт LAB</h2>
+            <p class="posters__text">Маркетинг</p>
 
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-8.webp" alt="photo" class="posters__photo" />
+          </li>
+          <li class="posters__item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="posters__box">
+              <source srcset="./photo/desktop/grow-desktop@1x.webp 1x, ./photo/desktop/grow-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)">
+                <source srcset="./photo/tablet/grow-tablet@1x.webp 1x, ./photo/tablet/grow-tablet@2x.webp 2x"
+                  media="(min-width: 768px)">
+                <source srcset="./photo/mobile/grow-mobile@1x.webp 1x, ./photo/mobile/grow-mobile@2x.webp 2x"
+                  media="(max-width: 767px)">
+              <img src="./photo/portfolio-9.webp" alt="photo" class="posters__photo" />
+              </picture>
+              <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                це
+                дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+            </div>
+            <h2 class="posters__title">Growing Business</h2>
+            <p class="posters__text">Додаток</p>
 
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Проєкт LAB</h2>
-          <p class="posters__text">Маркетинг</p>
-
-        </li>
-        <li class="posters__item" data-aos="fade-up"
-     data-aos-duration="1500">
-          <div class="posters__box">
-            <img src="./photo/portfolio-9.webp" alt="photo" class="posters__photo" />
-            <p class="posters__up">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-              дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-          </div>
-          <h2 class="posters__title">Growing Business</h2>
-          <p class="posters__text">Додаток</p>
-
-        </li>
-      </ol>
-    </div>
-  </section>
-</main>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
   <footer class="footer">
     <div class="container footer__container">
 
@@ -278,16 +346,16 @@
 
         <h2 class="mailing__text">Підпишіться на розсилку</h2>
         <div class="mailing__box">
-        <input type="email" placeholder="E-mail" class="mailing__input">
+          <input type="email" placeholder="E-mail" class="mailing__input">
 
 
-        <button class="mailing__button">
-          Підписатися
-          <svg class="mailing__icon">
-            <use href="./photo/symbol-defs.svg#icon-tg"></use>
-          </svg>
-        </button>
-</div>
+          <button class="mailing__button">
+            Підписатися
+            <svg class="mailing__icon">
+              <use href="./photo/symbol-defs.svg#icon-tg"></use>
+            </svg>
+          </button>
+        </div>
 
 
       </form>
@@ -296,7 +364,7 @@
   </footer>
 </body>
 
-  <script src="./js/mobile.js"></script>
+<script src="./js/mobile.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
